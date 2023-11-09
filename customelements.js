@@ -1,6 +1,6 @@
 class JaydenElement extends HTMLElement {
     connectedCallback(){
-        this.innerHTML = 'star dust 2';
+        this.innerHTML = 'star dust 3';
 
     }
 }
@@ -8,7 +8,7 @@ customElements.define("x-koxx", JaydenElement);
 
 class CenterElement extends HTMLElement {
     connectedCallback(){
-        this.innerHTML = <div style="text-align:center">${this.innerHTML}</div>;
+        this.innerHTML = `<div style="text-align:center">${this.innerHTML}</div>`;
 
     }
 }
