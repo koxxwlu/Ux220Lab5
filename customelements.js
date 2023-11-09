@@ -1,17 +1,18 @@
 class JaydenElement extends HTMLElement {
     connectedCallback(){
-        this.innerHTML = 'star dust';
+        this.innerHTML = 'star dust 2';
 
     }
 }
 customElements.define("x-koxx", JaydenElement);
 
-class CentreElement extends HTMLElement {
+class CenterElement extends HTMLElement {
     connectedCallback(){
-        this.innerHTML = `<div style="text-align:center">${this.innerHTML}</div>`;
+        this.innerHTML = <div style="text-align:center">${this.innerHTML}</div>;
+
     }
 }
-customElements.define("x-center", CentreElement);
+customElements.define("x-center", CenterElement);
 
 class DateElement extends HTMLElement {
     connectedCallback(){
