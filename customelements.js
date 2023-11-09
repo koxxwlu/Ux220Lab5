@@ -1,8 +1,8 @@
-class ElementOne extends HTMLElement {
+class JaydenElement extends HTMLElement {
     connectedCallback(){
-        this.innerHTML = "Hi hi"
+        this.innerHTML = "Hi hi";
 
     }
 }
 
-customElements.define("x-rich", RichElement);
+customElements.define("x-koxx", JaydenElement);
