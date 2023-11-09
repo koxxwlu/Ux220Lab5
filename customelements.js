@@ -8,8 +8,7 @@ customElements.define("x-koxx", JaydenElement);
 
 class CentreElement extends HTMLElement {
     connectedCallback(){
-        this.innerHTML = `<div style="text-align:center">${this.innerHTML}</div>
-        `;
+        this.innerHTML = `<div style="text-align:center">${this.innerHTML}</div>`;
     }
 }
 customElements.define("x-centre", CentreElement);
