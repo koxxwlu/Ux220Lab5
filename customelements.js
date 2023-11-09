@@ -1,6 +1,6 @@
 class JaydenElement extends HTMLElement {
     connectedCallback(){
-        this.innerHTML = "Hi hi";
+        this.innerHTML = 'I suggest an immediate test of the weapon, failure will find you explaining why to a, far less patient audience.';
 
     }
 }
