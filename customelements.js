@@ -11,7 +11,7 @@ class CentreElement extends HTMLElement {
         this.innerHTML = `<div style="text-align:center">${this.innerHTML}</div>`;
     }
 }
-customElements.define("x-centre", CentreElement);
+customElements.define("x-center", CentreElement);
 
 class DateElement extends HTMLElement {
     connectedCallback(){
