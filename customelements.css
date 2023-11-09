@@ -2,10 +2,10 @@ body {
     font-size: 15px;
 }
 
-x-centre {
+x-center {
     visibility: hidden;
 }
 
-x-centre:defined{
+x-center:defined{
     visibility: visible;
 }
