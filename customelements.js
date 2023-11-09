@@ -5,4 +5,4 @@ class ElementOne extends HTMLElement {
     }
 }
 
-customElements.ddefine("x-rich", RichElement);
+customElements.define("x-rich", RichElement);
